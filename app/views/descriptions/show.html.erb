@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Technique utilise:</strong>
+  <%= @description.technique_utilise %>
+</p>
+
+<p>
+  <strong>L histoire de l oeuvre:</strong>
+  <%= @description.l_histoire_de_l_oeuvre %>
+</p>
+
+<%= link_to 'Edit', edit_description_path(@description) %> |
+<%= link_to 'Back', descriptions_path %>
